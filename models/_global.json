@@ -1,0 +1,54 @@
+{
+	"title": "Model",
+	"modelDate": "21/05/2013",
+	"project": "fffunction prototype start",
+	"people": [
+		{
+			"name": "fffunction",
+			"twitter": "@fffunction"
+		}
+	],
+	"fndCss": [
+		{
+			"foundation": 		"true",
+			"normalize": 		"true"
+		}
+	],
+	"fndJavascript": [
+		{
+			"foundation": 		"true",
+			"zepto": 			"false",
+			"fnd_alerts": 		"false",
+			"fnd_clearing": 	"false",
+			"fnd_cookie": 		"false",
+			"fnd_dropdown": 	"false",
+			"fnd_forms": 		"false",
+			"fnd_joyride": 		"false",
+			"fnd_magellan": 	"false",
+			"fnd_orbit": 		"false",
+			"fnd_placeholder": 	"false",
+			"fnd_reveal": 		"false",
+			"fnd_section": 		"false",
+			"fnd_tooltips": 	"false",
+			"fnd_topbar": 		"false"
+		}
+	],
+	"gridset": [
+		{
+			"gridset":			"true",
+			"localFiles":		"true",
+			"gridId":			"18282"
+		}
+	],
+	"headJs": [
+		{
+			"firebase": "false",
+			"modernizr": "true"
+		}
+	],
+	"javascriptLibs": [
+		{
+			"quo": "true"
+		}
+	]
+}

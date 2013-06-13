@@ -1,0 +1,36 @@
+<!--
+fffunction 2013 Prototyping
+
+_______________________________________________________________________
+Gridset - Default Prototyping grid
+
+Desktop A: 1024px 12 Columns - Class Prefix da
+Desktop B: 990pc 8 Columns - Class Prefix db
+Tablert: 7687px 8 Columns - Class Prefix t
+Mobile: 480px 2 Columns - Class Prefix m
+
+Change to your own grid by changing the congig file (_global.json)
+Add in your own Gridset ID and change local files to false
+
+_______________________________________________________________________
+Styles
+
+To see all styles for foundation go to /style/guide
+Full docs here http://foundation.zurb.com/docs/
+_______________________________________________________________________
+
+-->
+
+{% for item in global.gridset %}
+	{% if item.gridset == "true" %}
+
+		{% if item.localFiles == "true" %}
+			{{ "gridset/gridset.css" | asset_url | stylesheet_tag }}
+			{{ "gridset/gridset-overlay.min.js" | asset_url | script_tag }}
+		{% else %}
+			<link href="https://get.gridsetapp.com/{{ item.gridId }}/" rel="stylesheet" />
+			<script src="https://get.gridsetapp.com/{{ item.gridId }}/overlay/"></script>
+		{% endif %}
+
+	{% endif %}
+{% endfor %}

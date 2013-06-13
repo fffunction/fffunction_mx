@@ -1,0 +1,3 @@
+{% for item in global.javascriptLibs %}
+	{% if item.quo == "true" %}{{ "libs/quo/quo.js" | asset_url | script_tag }}{% endif %}
+{% endfor %}

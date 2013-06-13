@@ -1,0 +1,4 @@
+{% for item in global.headJs %}
+	{% if item.firebase == "true" %}<script type='text/javascript' src='https://cdn.firebase.com/v0/firebase.js'></script>{% endif %}
+	{% if item.modernizr == "true" %}<script src="http://modernizr.com/downloads/modernizr-2.5.3.js"></script>{% endif %}
+{% endfor %}

@@ -1,0 +1,47 @@
+{% for item in global.fndJavascript %}
+	{% if item.foundation == "true" %}
+		{{ "foundation/js/foundation/foundation.min.js" | asset_url | script_tag }}
+	{% endif %}
+	{% if item.zepto == "true" %}
+		{{ "foundation/vendor/zepto.min.js" | asset_url | script_tag }}
+	{% endif %}
+	{% if item.fnd_alerts == "true" %}
+		{{ "foundation/js/foundation/foundation.alerts.min.js" | asset_url | script_tag }}
+	{% endif %}
+	{% if item.fnd_clearing == "true" %}
+		{{ "foundation/js/foundation/foundation.clearing.min.js" | asset_url | script_tag }}
+	{% endif %}
+	{% if item.fnd_cookie == "true" %}
+		{{ "foundation/js/foundation/foundation.cookie.min.js" | asset_url | script_tag }}
+	{% endif %}
+	{% if item.fnd_dropdown == "true" %}
+		{{ "foundation/js/foundation/foundation.dropdown.min.js" | asset_url | script_tag }}
+	{% endif %}
+	{% if item.fnd_forms == "true" %}
+		{{ "foundation/js/foundation/foundation.forms.min.js" | asset_url | script_tag }}
+	{% endif %}
+	{% if item.fnd_joyride == "true" %}
+		{{ "foundation/js/foundation/foundation.joyride.min.js" | asset_url | script_tag }}
+	{% endif %}
+	{% if item.fnd_magellan == "true" %}
+		{{ "foundation/js/foundation/foundation.megellan.min.js" | asset_url | script_tag }}
+	{% endif %}
+	{% if item.fnd_orbit == "true" %}
+		{{ "foundation/js/foundation/foundation.orbit.min.js" | asset_url | script_tag }}
+	{% endif %}
+	{% if item.fnd_placeholder == "true" %}
+		{{ "foundation/js/foundation/foundation.placeholder.min.js" | asset_url | script_tag }}
+	{% endif %}
+	{% if item.fnd_reveal == "true" %}
+		{{ "foundation/js/foundation/foundation.reveal.min.js" | asset_url | script_tag }}
+	{% endif %}
+	{% if item.fnd_section == "true" %}
+		{{ "foundation/js/foundation/foundation.section.min.js" | asset_url | script_tag }}
+	{% endif %}
+	{% if item.fnd_tooltips == "true" %}
+		{{ "foundation/js/foundation/foundation.tooltips.min.js" | asset_url | script_tag }}
+	{% endif %}
+	{% if item.fnd_topbar == "true" %}
+		{{ "foundation/js/foundation/foundation.topbar.min.js" | asset_url | script_tag }}
+	{% endif %}
+{% endfor %}
