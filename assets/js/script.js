@@ -64,7 +64,9 @@ window.log=function(){log.history=log.history||[];log.history.push(arguments);if
 
 		//firebase
 		//see docs for API https://www.firebase.com/docs/
-		var firbaseObject = new Firebase('https://project.firebaseio.com/');
+		//var firbaseObject = new Firebase('https://project.firebaseio.com/');
+
+		$(document).foundation();
 	}
 
 	// on data return
