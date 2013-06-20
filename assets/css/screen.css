@@ -205,6 +205,18 @@ blockquote p {
   margin: 1.2em 0 1.2em 0;
 }
 
+@font-face {
+  font-family: entypo;
+  src: url("/assets/fonts/Entypo/entypo.eot"), url("/assets/fonts/Entypo/entypo.svg"), url("/assets/fonts/Entypo/entypo.ttf"), url("/assets/fonts/Entypo/entypo.woff");
+  /* IE9 */
+}
+
+@font-face {
+  font-family: entypoSocial;
+  src: url("/assets/fonts/EntypoSocial/entypo-social.eot"), url("/assets/fonts/EntypoSocial/entypo-social.svg"), url("/assets/fonts/EntypoSocial/entypo-social.ttf"), url("/assets/fonts/EntypoSocial/entypo-social.woff");
+  /* IE9 */
+}
+
 label, select {
   display: block;
 }
