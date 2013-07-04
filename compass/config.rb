@@ -1,6 +1,6 @@
 # Require any additional compass plugins here.
 # -----------------------------------------------------------------------------
-project_path = "/Users/adamrobertson/Dropbox/_codebase/Prototyping/fffunction_mx/"
+project_path = File.expand_path("..",File.dirname(__FILE__))
 
 
 # Set this to the root of your project when deployed:
