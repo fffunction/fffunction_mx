@@ -15,6 +15,7 @@
 			"normalize": 		"true"
 		}
 	],
+	"hintCss" : "true",
 	"fndJavascript": [
 		{
 			"foundation": 		"true",
