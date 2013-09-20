@@ -5,6 +5,9 @@
 	{% if item.normalize == "true" %}
 		{{ "normalize.min.css" | asset_url | stylesheet_tag }}
 	{% endif %}
+	{% if item.hintCss == "true" %}
+		{{ "hint.min.css" | asset_url | stylesheet_tag }}
+	{% endif %}
 {% endfor %}
 
 
