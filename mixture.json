@@ -16,5 +16,8 @@
   "templateDefaultPage": "index",
   "templateDirectory": "templates",
   "type": "mixture",
-  "useCompass": true
+  "useCompass": true,
+  "sass": {
+    "globbing": true
+  }
 }
